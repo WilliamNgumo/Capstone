@@ -1,0 +1,205 @@
+
+
+body {
+  background-color: #2f2516;
+ }
+
+ footer {
+   background-color: black;
+ }
+
+ .nav-sec {
+   padding: 10px;
+   color: #b78d42;
+   /* text-decoration: dotted; */
+ }
+
+ .nav-sec-list {
+   list-style-type: none;
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+ }
+
+ .nav-sec-list a {
+   text-decoration: none;
+   color:#b78d42;
+   font-size: 15px;
+   font-weight: bold;
+   transition:color 0.3 ease;
+   /* text-emphasis-color: white; */
+
+ }
+
+ .nav-sec-list2 {
+   list-style-type: none;
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+ }
+
+ .nav-sec-list a:hover, .nav-sec-list2 a:hover {
+   color: #ffffff;
+ }
+ .Statement h1 {
+  color: #b78d42;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.Statement p {
+  color: #b78d42;
+  text-align: center;
+}
+.CEO {
+  text-align: center;
+  /* align-items: center; */
+  color: #b78d42;
+  background-position: center;
+}
+.CEO h3 {
+  font-weight: bolder;
+}
+
+.sonk {
+  color: azure;
+  text-align: center;
+  background-color: black;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  overflow: hidden;
+}
+.sonk p {
+  color: white;
+}
+
+ .social-links i{
+   color: azure;
+   width: 3rem;
+   height: 3rem;
+   display: inline-flex;
+   justify-content: right;
+   align-items: right;
+   margin-left: 50%;
+   position: absolute;
+   right: 10px;
+   top: 10px;
+   padding: 10px;
+ }
+
+ .footer p {
+   color: white;
+ }
+ .footer li {
+   color: white;
+ }
+
+
+ .footer-list {
+   list-style-type: none;
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+   flex-direction: column;
+ }
+
+ .footer {
+ padding: 10px;
+ width: 100%;
+ bottom: 0%;
+ left: 0;
+ position:absolute;
+ text-align: center;
+ }
+
+ .all-rights {
+   list-style-type: none;
+   display: flex;
+   justify-content: left;
+   gap: 10px;
+
+
+ }
+ .firster {
+  color: white;
+  text-align: center;
+ }
+
+ .drops {
+  background-image: url(assets/pexels-tima-miroshnichenko-5912677.jpg);
+  text-align: center;
+  /* padding: 100px 20px;
+  border-radius: 5px; */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.drops h1 {
+  color: white;
+}
+.drops h3 {
+  color:#b78d42;
+}
+.form-section {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #8A4832;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-section h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-section button {
+  width: 20%;
+  padding: 12px;
+  background-color: white;
+  border-radius: 4px;
+}
+.form-section button:hover {
+  background-color:#b78d42;
+}
+.form-section h3 {
+  text-align: center;
+}
+
+@media screen and (max-width: 375px) {
+  body{font-size: 16px;}
+  div{ width: 95%;}
+}
+@media (max-width: 570px) {
+  .social-links i{
+    display: block;
+
+  }
+
+}
+.social-links i {
+  display: none;
+  /* position: absolute;
+  font-size: 1rem;
+  right: 5%; */
+
+}
+
+/* .nav-sec-list .nav-sec-list2 {
+  max-width: 600px;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  display: none;
+} */
+
+
+
